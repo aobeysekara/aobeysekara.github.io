@@ -22,7 +22,7 @@ feature_row:
     excerpt: "Using high-performance computing for computational fluid dynamics"
   - image_path: /assets/images/ai.jpeg
     title: "Data"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    excerpt: "Short projects and learning ML/AI methods"
     url: "https://github.com/aobeysekara/DeepLearning"
     btn_label: "Read More"
     btn_class: "btn--primary"
