@@ -8,8 +8,17 @@ header:
 ---
 
 
-## Key publications
+## Key Publications
 
+## Main Author
+
+   <p><a href="http://hdl.handle.net/10044/1/66030">
+           DOCTORAL THESIS: Numerical modelling of hydraulic fracturing in naturally fractured rock
+      </a><br>
+       A.Obeysekara
+      <em>Imperial College London</em>
+      (2018) doi: https://doi.org/10.25560/66030
+   </p>
 
    <p><a href="http://www.sciencedirect.com/science/article/pii/S0266352X18301824">
            Modelling stress-dependent single and multi-phase flows in fractured porous media based on an immersed-body method with mesh adaptivity
@@ -19,7 +28,7 @@ header:
       (2016) doi: https://doi.org/10.1016/j.compgeo.2018.07.009
    </p>
 
-   <p><a href="https://www.onepetro.org/conference-paper/ARMA-2016-013">
+   <p><a href="https://www.onepetro.org/conference-paper/ARMA-2017-0439">
            Numerical Modelling of Coupled Flow and Fluid-Driven Fracturing in Fractured Porous Media using the Immersed Body Method
       </a><br>
        A. Obeysekara,P. Salinas, J.P. Latham, J. Xiang and C.C. Pain;
@@ -36,7 +45,7 @@ header:
    </p>
 
 
-   <p><a href="https://www.onepetro.org/conference-paper/ARMA-2016-013">
+   <p><a href="https://www.interpore.org/">
            A Fluid-Solid Coupled Approach for Numerical Modeling of Near Wellbore Hydraulic Fracturing and Flow Dynamics with Adaptive Mesh Refinement
       </a><br>
        A. Obeysekara, Q. Lei, P. Salinas, D. Pavlidis, J.P. Latham, J. Xiang and C.C. Pain;

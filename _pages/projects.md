@@ -10,5 +10,5 @@ header:
 
 ## Machine Learning
 
-Currently being refurbished
+I am currently working on Generative and NLP short projects using Keras, Sklearn, Tensorflow and NLTK. **Updates soon**
 
