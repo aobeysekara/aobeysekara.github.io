@@ -13,7 +13,7 @@ feature_row:
     alt: "CFD"
     title: "Computational Physics"
     excerpt: "Development, validation and application of state-of-the-art fluid dynamics methods"
-    url: "#test-link"
+    url: "https://www.imperial.ac.uk/people/a.obeysekara"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/images/hpc.png
