@@ -1,18 +1,25 @@
-- name: phosphor
-  description: "Keyboard-driven TUI directory browser with fuzzy search and an embedded vim pane, written in Rust"
+- description: Keyboard-driven TUI directory browser with fuzzy search and an embedded
+    vim pane, written in Rust
   language: Rust
+  name: phosphor
   stars: 0
+  updated: '2026-05-08'
   url: https://github.com/aobeysekara/phosphor
-  updated: "2026-05-08"
-- name: DeepLearning
-  description: "Deep learning models for CFD and data"
+- description: Deep learning models for CFD and data
   language: Python
+  name: DeepLearning
   stars: 0
+  updated: '2022-03-17'
   url: https://github.com/aobeysekara/DeepLearning
-  updated: "2022-03-17"
-- name: AnalysisTools
-  description: "Python VTK and CSV tools for scientific analysis"
+- description: 'Python VTK and CSV tools for scientific analysis '
   language: Python
+  name: AnalysisTools
   stars: 0
+  updated: '2021-02-02'
   url: https://github.com/aobeysekara/AnalysisTools
-  updated: "2021-02-02"
+- description: testing data mining using python
+  language: null
+  name: mrkts
+  stars: 0
+  updated: '2017-04-25'
+  url: https://github.com/aobeysekara/mrkts
