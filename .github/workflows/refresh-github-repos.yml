@@ -1,0 +1,59 @@
+name: Refresh GitHub repos
+
+on:
+  schedule:
+    - cron: "17 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch public repos and write _data/github_repos.yml
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: aobeysekara
+        run: |
+          set -euo pipefail
+          gh api "/users/${GH_USER}/repos?per_page=100&sort=updated&type=owner" --paginate \
+            --jq '
+              [
+                .[]
+                | select(.fork == false)
+                | select(.archived == false)
+                | select(.name != "aobeysekara.github.io")
+                | select((.description // "") != "")
+                | {
+                    name: .name,
+                    description: .description,
+                    language: .language,
+                    stars: .stargazers_count,
+                    url: .html_url,
+                    updated: (.updated_at | sub("T.*"; ""))
+                  }
+              ]
+            ' > /tmp/repos.json
+          python3 - <<'PY' > _data/github_repos.yml
+          import json, yaml
+          with open("/tmp/repos.json") as fh:
+              repos = json.load(fh)
+          print(yaml.safe_dump(repos, sort_keys=False, allow_unicode=True).rstrip())
+          PY
+
+      - name: Commit if changed
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet _data/github_repos.yml; then
+            echo "No changes."
+            exit 0
+          fi
+          git add _data/github_repos.yml
+          git commit -m "chore: refresh GitHub repos data"
+          git push
