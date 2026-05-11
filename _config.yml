@@ -15,10 +15,10 @@
 minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 # Site Settings
 locale                   : "en-GB"
-title                    : "Indi"
-title_separator          : "-"
-name                     : &name "Asiri Obeysekara"
-description              : "About me"
+title                    : "Indi Obeysekara"
+title_separator          : "·"
+name                     : &name "Indi (Asiri) Obeysekara"
+description              : "Tech Lead and Developer · computational physics, HPC, simulation, ML"
 url                      : "https://aobeysekara.github.io"
 baseurl                  : "/"
 repository               : "aobeysekara/aobeysekara.github.io"
@@ -63,9 +63,9 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
+search                   : true
+search_full_content      : true
+search_provider          : lunr
 algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
@@ -83,7 +83,7 @@ naver_site_verification  :
 # Social Sharing
 twitter:
   username               :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : "/assets/images/japan.jpg"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -100,10 +100,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Asiri I.B Obeysekara"
+  name             : "Indi (Asiri) Obeysekara"
   avatar           : "/assets/images/AsiriObeysekara.jpeg"
-  bio              : "Computational physics,  Data , High performance computing , Research"
-  location         : "London"
+  bio              : "Tech Lead · large-scale simulation & AI · ex-CFD/HPC researcher (Imperial)"
+  location         : "London, UK"
   email            :
   links:
     - label: "Email"
@@ -112,6 +112,12 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/aobeysekara"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=p4oWWqQAAAAJ&hl=en"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://uk.linkedin.com/in/aobeysekara"
 
 # Site Footer
 footer:
@@ -119,6 +125,12 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/aobeysekara"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=p4oWWqQAAAAJ&hl=en"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://uk.linkedin.com/in/aobeysekara"
 
 header:
   image: /assets/images/japan.jpg
@@ -199,6 +211,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-seo-tag
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -207,6 +220,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-seo-tag
 
 category_archive:
   type: liquid

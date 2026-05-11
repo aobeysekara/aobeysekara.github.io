@@ -1,11 +1,10 @@
 # Authors
 
-Asiri Obeysekara:
-  name        : "Asiri Obeysekara"
-  uri         : 
+Indi Obeysekara:
+  name        : "Indi (Asiri) Obeysekara"
+  uri         : "https://aobeysekara.github.io"
   email       : "asiri.obeysekara@gmail.com"
-  bio         : 
-  avatar      : 
-  twitter     : 
-  google_plus : 
-
+  bio         : "Tech Lead · large-scale simulation & AI · ex-CFD/HPC researcher (Imperial)"
+  avatar      : "/assets/images/AsiriObeysekara.jpeg"
+  github      : "aobeysekara"
+  linkedin    : "aobeysekara"

@@ -7,11 +7,19 @@ header:
   overlay_image: /assets/images/japan.jpg
 ---
 
+## Open source
 
-## Current
+Public repositories live on [GitHub](https://github.com/aobeysekara); the
+[Projects](/projects) page lists the most active ones with descriptions.
 
-Currently being refurbished
+## Talks & writing
 
-## Past
+*Selected technical talks and write-ups will appear here.*
 
-Currently being refurbished
+## Tools I reach for
+
+- **Languages**: Python, C++, a bit of Rust
+- **Numerical / HPC**: MPI, CUDA, OpenMP, NumPy/SciPy, finite-element & finite-volume solvers
+- **ML**: PyTorch, scikit-learn, JAX
+- **Infrastructure**: Docker, Kubernetes, Terraform, CI on GitHub Actions
+- **Editors**: Neovim, VS Code
