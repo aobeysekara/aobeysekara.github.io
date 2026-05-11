@@ -1,7 +1,30 @@
 ---
-layout: home
-author_profile: true
+layout: splash
 permalink: /
+title: ""
 header:
-  image: /assets/images/yose1.jpg
+  overlay_image: /assets/images/yose1.jpg
+  overlay_filter: 0.3
+excerpt: "**Tech Lead and Developer** · large-scale simulation & AI · ex-CFD/HPC researcher (Imperial)."
+feature_row:
+  - image_path: /assets/images/AsiriObeysekara.jpeg
+    title: "About"
+    excerpt: "Tech lead working across simulation, distributed systems and ML — with a research background in computational physics."
+    url: /about
+    btn_label: "Read more"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/hpc.png
+    title: "Projects"
+    excerpt: "Selected open-source work and personal projects, refreshed from GitHub."
+    url: /projects
+    btn_label: "See projects"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/FPC_vort3D.gif
+    title: "Research"
+    excerpt: "Computational physics, HPC and ML for simulation — h-index 7, 228 citations on Google Scholar."
+    url: /research
+    btn_label: "Research background"
+    btn_class: "btn--primary"
 ---
+
+{% include feature_row %}
