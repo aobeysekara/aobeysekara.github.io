@@ -12,7 +12,7 @@ jobs:
   refresh:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - name: Fetch public repos and write _data/github_repos.yml
         env:
