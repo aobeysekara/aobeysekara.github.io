@@ -3,7 +3,7 @@
   language: Rust
   name: phosphor
   stars: 0
-  updated: '2026-05-08'
+  updated: '2026-07-31'
   url: https://github.com/aobeysekara/phosphor
 - description: Deep learning models for CFD and data
   language: Python
